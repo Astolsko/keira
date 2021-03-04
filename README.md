@@ -20,5 +20,5 @@ Keira is a bot with a mix of loads of things, It has only a hand full stuff as o
   
   **Join the support server is the best way of contacting me.**
   
-  **[![widget](https://cdn.discordapp.com/attachments/810182666904404058/815433494598778880/unknown.png)](https://discord.gg/35WJQzBbW9)**
+  **[![widget](https://discordapp.com/api/guilds/799717070317027338/widget.png?style=banner4)**
  
