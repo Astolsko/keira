@@ -122,7 +122,7 @@ async def reply(ctx, *, phrase):
 
 initial_extensions=[
             'cogs.fun',
-            'cogs.music',
+
 ]
 
 if __name__ == '__main__':
