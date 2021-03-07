@@ -122,6 +122,7 @@ async def reply(ctx, *, phrase):
 
 initial_extensions=[
             'cogs.fun',
+            'cogs.music',
 ]
 
 if __name__ == '__main__':
@@ -135,7 +136,7 @@ if __name__ == '__main__':
 
 
 
-client.run('no')
+client.run('u wish')
 
 
 
