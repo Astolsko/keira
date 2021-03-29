@@ -18,7 +18,7 @@ Keira is a bot with a mix of loads of things, It has only a hand full stuff as o
   Image Mani. Commands
 ```  
   
-  **Join the support server is the best way of contacting me.**
+  **Joining the support server is the best way of contacting me.**
   
   **[![widget](https://discordapp.com/api/guilds/799717070317027338/widget.png?style=banner4)](https://discord.gg/35WJQzBbW9)**
  
