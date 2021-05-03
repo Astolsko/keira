@@ -159,7 +159,3 @@ class fun(commands.Cog):
 def setup(bot):
     bot.add_cog(fun(bot))
     print("fun cog is loaded")
-
-
-
-

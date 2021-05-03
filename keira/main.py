@@ -104,6 +104,18 @@ async def ping(ctx):
      await ctx.send(f'Pong! In {round(client.latency * 1000)}ms')
     
 
+
+
+@client.event
+async def on_command_error(ctx, error):
+    await ctx.send(f"`{error}`")
+    
+
+
+    
+
+
+
 initial_extensions=[
             'cogs.fun',
 
