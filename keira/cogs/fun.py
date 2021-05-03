@@ -138,11 +138,7 @@ class fun(commands.Cog):
         async with aiohttp.ClientSession() as session:
             async with session.post(
                     'https://api.mechakaren.xyz/v1/chatbot',
-<<<<<<< HEAD
-                    headers = {'Authorization': 'karen token'},
-=======
-                    headers = {'Authorization': 'suck ur mum'},
->>>>>>> 45e08f582e56d0f1d064b66b05ba1d6e4448cf90
+                    headers = {'Authorization': '6D6B93FEE051FA8FE69F0329D3BD27956E98D4B6'},
                     json = {'message': message}
                 ) as response:
                 try:
@@ -150,6 +146,7 @@ class fun(commands.Cog):
                 except Exception:
                     return await ctx.message.reply(content='I have no response for you, now go away.')
         return await ctx.message.reply(content=real['response']['answer'] or 'Hello bitch.')
+            
             
         
                 
