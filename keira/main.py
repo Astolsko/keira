@@ -99,8 +99,10 @@ async def on_member_join(member, ):
     bg.save('welcome.png')    ## And we save it
     await channel.send(file=discord.File("welcome.png"))
 
-
-
+@client.command()
+async def ping(ctx):
+     await ctx.send(f'Pong! In {round(client.latency * 1000)}ms')
+    
 
 initial_extensions=[
             'cogs.fun',
