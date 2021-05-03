@@ -102,24 +102,6 @@ async def on_member_join(member, ):
 
 
 
-
-
-
-
-
-
-#chat bot useing pgamerx's api 
-
-@client.command(aliases = ['r'])
-async def reply(ctx, *, phrase):
-    async with aiohttp.ClientSession() as session:
-        async with session.get(f"https://api.pgamerx.com/ai/response?message={phrase}&language=en") as response:
-            resp = await response.json()
-            await ctx.send(resp[0])
-    
-
-
-
 initial_extensions=[
             'cogs.fun',
 
@@ -136,7 +118,7 @@ if __name__ == '__main__':
 
 
 
-client.run('u wish')
+client.run('TOKEN')
 
 
 

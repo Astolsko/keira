@@ -17,6 +17,7 @@ import traceback
 import sys
 
 
+
 class fun(commands.Cog):
     def __init__(self, bot):
         self.client = bot
@@ -132,10 +133,22 @@ class fun(commands.Cog):
 
 
 
-
-
-
+    @commands.command(aliases=['r'])
+    async def reply(self, ctx, *, message: str):
+        async with aiohttp.ClientSession() as session:
+            async with session.post(
+                    'https://api.mechakaren.xyz/v1/chatbot',
+                    headers = {'Authorization': 'E45DFC6C054BF70794A4694F1FA4B5C8F3C990E7'},
+                    json = {'message': message}
+                ) as response:
+                try:
+                    real = await response.json()
+                except Exception:
+                    return await ctx.message.reply(content='I have no response for you, now go away.')
+        return await ctx.message.reply(content=real['response']['answer'] or 'Hello bitch.')
+            
         
+                
     
  
 
