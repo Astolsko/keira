@@ -138,7 +138,7 @@ class fun(commands.Cog):
         async with aiohttp.ClientSession() as session:
             async with session.post(
                     'https://api.mechakaren.xyz/v1/chatbot',
-                    headers = {'Authorization': 'E45DFC6C054BF70794A4694F1FA4B5C8F3C990E7'},
+                    headers = {'Authorization': 'suck ur mum'},
                     json = {'message': message}
                 ) as response:
                 try:
